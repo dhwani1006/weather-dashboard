@@ -1,0 +1,167 @@
+.app {
+  text-align: center;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+/* Title */
+h1 {
+  margin-bottom: 20px;
+}
+
+/* Search */
+.search-box {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+.search-box input {
+  padding: 12px;
+  width: 250px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  background: #e5e7eb;
+}
+
+.search-box button {
+  padding: 12px 18px;
+  border: none;
+  background: #2563eb;
+  color: white;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+/* Quick Cities */
+.quick-cities {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 24px;
+  margin-bottom: 25px;
+}
+
+.quick-cities button {
+  padding: 8px 14px;
+  border: none;
+  border-radius: 20px;
+  background: white;
+  cursor: pointer;
+  font-size: 13px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  transition: 0.2s;
+}
+
+.quick-cities button:hover {
+  background: #2563eb;
+  color: white;
+}
+
+/* Empty State */
+.empty-state {
+  margin-top: 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.empty-icon {
+  font-size: 40px;
+  margin-bottom: 10px;
+}
+
+.empty-state h2 {
+  font-size: 22px;
+  margin: 5px 0;
+  color: #333;
+}
+
+.empty-state p {
+  font-size: 14px;
+  color: #666;
+  max-width: 300px;
+}
+
+/* Loading */
+.loading {
+  margin-top: 20px;
+}
+
+/* Main Card */
+.main-card {
+  background: white;
+  width: 270px;
+  padding: 20px;
+  margin: 0 auto 30px;
+  border-radius: 14px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 6px;
+}
+
+.day {
+  font-size: 13px;
+  color: #555;
+  margin: 0;
+}
+
+.condition {
+  font-size: 12px;
+  color: #777;
+}
+
+.icon {
+  font-size: 28px;
+}
+
+.temp {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+.extra-row {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  font-size: 12px;
+}
+
+/* Forecast */
+.forecast {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+}
+
+.forecast-card {
+  background: white;
+  width: 110px;
+  padding: 14px;
+  border-radius: 12px;
+  box-shadow: 0 5px 14px rgba(0,0,0,0.08);
+  transition: 0.2s;
+}
+
+.forecast-card:hover {
+  transform: translateY(-4px);
+}
+
+.extra {
+  font-size: 11px;
+  color: #666;
+  margin-top: 5px;
+}
+
+.error-text {
+  margin-top: 8px;
+  font-size: 13px;
+  color: #ef4444;
+  font-weight: 500;
+}
