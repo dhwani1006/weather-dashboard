@@ -14,7 +14,7 @@ https://weather-dashboard-xi-steel.vercel.app/
 - Search weather for any city  
 - 5-day weather forecast  
 - Real-time temperature  
-- Humidity & 🌬️ wind details  
+- Humidity & wind details  
 - Quick city buttons (Ahmedabad, Delhi, Mumbai)  
 - Input validation & error handling  
 - Loading state for better user experience  
@@ -35,10 +35,10 @@ https://weather-dashboard-xi-steel.vercel.app/
 ## Screenshots
 
 ### Home Screen
-
+![Dashboard](./weather.png)
 
 ### Weather Results
-
+![Details](./weathercity.png)
 
 ---
 
