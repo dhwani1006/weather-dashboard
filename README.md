@@ -38,11 +38,11 @@ https://weather-dashboard-xi-steel.vercel.app/
 ![Dashboard](./weather.png)
 
 ### Weather Results
-![Details](./weathercity.png)
+![Details](./weatherdetails.png)
 
 ---
 
-## ⚙️ Installation
+## Installation
 
 Clone the repository:
 
